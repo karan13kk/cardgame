@@ -1,0 +1,43 @@
+table tr {
+    display: flex;
+}
+
+table tr td{
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    background-repeat: round;
+    background-size: 250px 180px;
+    text-indent: -999px;
+}
+
+
+table tr td:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.currentTrueState{
+    text-indent: 0px;
+}
+
+.currentFalseState{
+    text-indent: -9999px;
+}
+
+.checked{
+    color: red;
+    text-indent: 0px;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.buttonLS{
+    margin-top: 20px;
+}
